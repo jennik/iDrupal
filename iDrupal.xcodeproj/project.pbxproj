@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75C6A07B34C84F7DA2EA22E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811E621FC0A4FCD97AC971E /* libPods.a */; };
 		BE2D01F818D614B20079F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01F718D614B20079F1C4 /* Foundation.framework */; };
 		BE2D01FA18D614B20079F1C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */; };
 		BE2D01FC18D614B20079F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01FB18D614B20079F1C4 /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		BE2D021C18D614B20079F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01FB18D614B20079F1C4 /* UIKit.framework */; };
 		BE2D022418D614B20079F1C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE2D022218D614B20079F1C4 /* InfoPlist.strings */; };
 		BE2D022618D614B20079F1C4 /* iDrupalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D022518D614B20079F1C4 /* iDrupalTests.m */; };
+		BE2D023A18D618280079F1C4 /* DIOSNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D023718D618280079F1C4 /* DIOSNode.m */; };
+		BE2D023B18D618280079F1C4 /* DIOSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D023918D618280079F1C4 /* DIOSSession.m */; };
+		BE2D023F18D620C90079F1C4 /* DIOSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D023E18D620C90079F1C4 /* DIOSFile.m */; };
+		BE2D024218D62D150079F1C4 /* DPAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D024118D62D150079F1C4 /* DPAddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141F26E13FF14A8BBCE281E7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7811E621FC0A4FCD97AC971E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2D01F418D614B20079F1C4 /* iDrupal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDrupal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2D01F718D614B20079F1C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +63,15 @@
 		BE2D022118D614B20079F1C4 /* iDrupalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDrupalTests-Info.plist"; sourceTree = "<group>"; };
 		BE2D022318D614B20079F1C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE2D022518D614B20079F1C4 /* iDrupalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrupalTests.m; sourceTree = "<group>"; };
+		BE2D023618D618280079F1C4 /* DIOSNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSNode.h; sourceTree = "<group>"; };
+		BE2D023718D618280079F1C4 /* DIOSNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSNode.m; sourceTree = "<group>"; };
+		BE2D023818D618280079F1C4 /* DIOSSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSSession.h; sourceTree = "<group>"; };
+		BE2D023918D618280079F1C4 /* DIOSSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSSession.m; sourceTree = "<group>"; };
+		BE2D023C18D618580079F1C4 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		BE2D023D18D620C90079F1C4 /* DIOSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIOSFile.h; sourceTree = "<group>"; };
+		BE2D023E18D620C90079F1C4 /* DIOSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIOSFile.m; sourceTree = "<group>"; };
+		BE2D024018D62D150079F1C4 /* DPAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAddViewController.h; sourceTree = "<group>"; };
+		BE2D024118D62D150079F1C4 /* DPAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,7 @@
 				BE2D01FA18D614B20079F1C4 /* CoreGraphics.framework in Frameworks */,
 				BE2D01FC18D614B20079F1C4 /* UIKit.framework in Frameworks */,
 				BE2D01F818D614B20079F1C4 /* Foundation.framework in Frameworks */,
+				75C6A07B34C84F7DA2EA22E0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,7 @@
 				BE2D021F18D614B20079F1C4 /* iDrupalTests */,
 				BE2D01F618D614B20079F1C4 /* Frameworks */,
 				BE2D01F518D614B20079F1C4 /* Products */,
+				141F26E13FF14A8BBCE281E7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +126,7 @@
 				BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */,
 				BE2D01FB18D614B20079F1C4 /* UIKit.framework */,
 				BE2D021918D614B20079F1C4 /* XCTest.framework */,
+				7811E621FC0A4FCD97AC971E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +134,7 @@
 		BE2D01FD18D614B20079F1C4 /* iDrupal */ = {
 			isa = PBXGroup;
 			children = (
+				BE2D022F18D6179C0079F1C4 /* dios */,
 				BE2D020618D614B20079F1C4 /* DPAppDelegate.h */,
 				BE2D020718D614B20079F1C4 /* DPAppDelegate.m */,
 				BE2D020918D614B20079F1C4 /* Main.storyboard */,
@@ -122,6 +142,8 @@
 				BE2D020D18D614B20079F1C4 /* DPMasterViewController.m */,
 				BE2D020F18D614B20079F1C4 /* DPDetailViewController.h */,
 				BE2D021018D614B20079F1C4 /* DPDetailViewController.m */,
+				BE2D024018D62D150079F1C4 /* DPAddViewController.h */,
+				BE2D024118D62D150079F1C4 /* DPAddViewController.m */,
 				BE2D021218D614B20079F1C4 /* Images.xcassets */,
 				BE2D01FE18D614B20079F1C4 /* Supporting Files */,
 			);
@@ -157,6 +179,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE2D022F18D6179C0079F1C4 /* dios */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D023D18D620C90079F1C4 /* DIOSFile.h */,
+				BE2D023E18D620C90079F1C4 /* DIOSFile.m */,
+				BE2D023C18D618580079F1C4 /* Settings.h */,
+				BE2D023618D618280079F1C4 /* DIOSNode.h */,
+				BE2D023718D618280079F1C4 /* DIOSNode.m */,
+				BE2D023818D618280079F1C4 /* DIOSSession.h */,
+				BE2D023918D618280079F1C4 /* DIOSSession.m */,
+			);
+			name = dios;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE2D022918D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupal" */;
 			buildPhases = (
+				030F53412B8F4B2381D7C1C2 /* Check Pods Manifest.lock */,
 				BE2D01F018D614B20079F1C4 /* Sources */,
 				BE2D01F118D614B20079F1C4 /* Frameworks */,
 				BE2D01F218D614B20079F1C4 /* Resources */,
+				BBE106D9410D4C3B9DD53CBC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +243,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Drupal.org;
 				TargetAttributes = {
+					BE2D01F318D614B20079F1C4 = {
+						DevelopmentTeam = Q98XRXBXJ4;
+					};
 					BE2D021718D614B20079F1C4 = {
 						TestTargetID = BE2D01F318D614B20079F1C4;
 					};
@@ -250,12 +291,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		030F53412B8F4B2381D7C1C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE106D9410D4C3B9DD53CBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE2D01F018D614B20079F1C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE2D020E18D614B20079F1C4 /* DPMasterViewController.m in Sources */,
+				BE2D023B18D618280079F1C4 /* DIOSSession.m in Sources */,
+				BE2D023A18D618280079F1C4 /* DIOSNode.m in Sources */,
+				BE2D023F18D620C90079F1C4 /* DIOSFile.m in Sources */,
+				BE2D024218D62D150079F1C4 /* DPAddViewController.m in Sources */,
 				BE2D021118D614B20079F1C4 /* DPDetailViewController.m in Sources */,
 				BE2D020818D614B20079F1C4 /* DPAppDelegate.m in Sources */,
 				BE2D020418D614B20079F1C4 /* main.m in Sources */,
@@ -380,26 +458,34 @@
 		};
 		BE2D022A18D614B20079F1C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141F26E13FF14A8BBCE281E7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
 				INFOPLIST_FILE = "iDrupal/iDrupal-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		BE2D022B18D614B20079F1C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141F26E13FF14A8BBCE281E7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
 				INFOPLIST_FILE = "iDrupal/iDrupal-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +549,7 @@
 				BE2D022B18D614B20079F1C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE2D022C18D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupalTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +558,7 @@
 				BE2D022E18D614B20079F1C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
