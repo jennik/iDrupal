@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2D01F818D614B20079F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01F718D614B20079F1C4 /* Foundation.framework */; };
+		BE2D01FA18D614B20079F1C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */; };
+		BE2D01FC18D614B20079F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01FB18D614B20079F1C4 /* UIKit.framework */; };
+		BE2D020218D614B20079F1C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE2D020018D614B20079F1C4 /* InfoPlist.strings */; };
+		BE2D020418D614B20079F1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D020318D614B20079F1C4 /* main.m */; };
+		BE2D020818D614B20079F1C4 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D020718D614B20079F1C4 /* DPAppDelegate.m */; };
+		BE2D020B18D614B20079F1C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2D020918D614B20079F1C4 /* Main.storyboard */; };
+		BE2D020E18D614B20079F1C4 /* DPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D020D18D614B20079F1C4 /* DPMasterViewController.m */; };
+		BE2D021118D614B20079F1C4 /* DPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D021018D614B20079F1C4 /* DPDetailViewController.m */; };
+		BE2D021318D614B20079F1C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2D021218D614B20079F1C4 /* Images.xcassets */; };
+		BE2D021A18D614B20079F1C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D021918D614B20079F1C4 /* XCTest.framework */; };
+		BE2D021B18D614B20079F1C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01F718D614B20079F1C4 /* Foundation.framework */; };
+		BE2D021C18D614B20079F1C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2D01FB18D614B20079F1C4 /* UIKit.framework */; };
+		BE2D022418D614B20079F1C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE2D022218D614B20079F1C4 /* InfoPlist.strings */; };
+		BE2D022618D614B20079F1C4 /* iDrupalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2D022518D614B20079F1C4 /* iDrupalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2D021D18D614B20079F1C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2D01EC18D614B20079F1C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2D01F318D614B20079F1C4;
+			remoteInfo = iDrupal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2D01F418D614B20079F1C4 /* iDrupal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDrupal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D01F718D614B20079F1C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE2D01FB18D614B20079F1C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE2D01FF18D614B20079F1C4 /* iDrupal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDrupal-Info.plist"; sourceTree = "<group>"; };
+		BE2D020118D614B20079F1C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE2D020318D614B20079F1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE2D020518D614B20079F1C4 /* iDrupal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDrupal-Prefix.pch"; sourceTree = "<group>"; };
+		BE2D020618D614B20079F1C4 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
+		BE2D020718D614B20079F1C4 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
+		BE2D020A18D614B20079F1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2D020C18D614B20079F1C4 /* DPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPMasterViewController.h; sourceTree = "<group>"; };
+		BE2D020D18D614B20079F1C4 /* DPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPMasterViewController.m; sourceTree = "<group>"; };
+		BE2D020F18D614B20079F1C4 /* DPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPDetailViewController.h; sourceTree = "<group>"; };
+		BE2D021018D614B20079F1C4 /* DPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPDetailViewController.m; sourceTree = "<group>"; };
+		BE2D021218D614B20079F1C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE2D021818D614B20079F1C4 /* iDrupalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDrupalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2D021918D614B20079F1C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE2D022118D614B20079F1C4 /* iDrupalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDrupalTests-Info.plist"; sourceTree = "<group>"; };
+		BE2D022318D614B20079F1C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE2D022518D614B20079F1C4 /* iDrupalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDrupalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2D01F118D614B20079F1C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D01FA18D614B20079F1C4 /* CoreGraphics.framework in Frameworks */,
+				BE2D01FC18D614B20079F1C4 /* UIKit.framework in Frameworks */,
+				BE2D01F818D614B20079F1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D021518D614B20079F1C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D021A18D614B20079F1C4 /* XCTest.framework in Frameworks */,
+				BE2D021C18D614B20079F1C4 /* UIKit.framework in Frameworks */,
+				BE2D021B18D614B20079F1C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2D01EB18D614B20079F1C4 = {
+			isa = PBXGroup;
+			children = (
+				BE2D01FD18D614B20079F1C4 /* iDrupal */,
+				BE2D021F18D614B20079F1C4 /* iDrupalTests */,
+				BE2D01F618D614B20079F1C4 /* Frameworks */,
+				BE2D01F518D614B20079F1C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2D01F518D614B20079F1C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D01F418D614B20079F1C4 /* iDrupal.app */,
+				BE2D021818D614B20079F1C4 /* iDrupalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2D01F618D614B20079F1C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D01F718D614B20079F1C4 /* Foundation.framework */,
+				BE2D01F918D614B20079F1C4 /* CoreGraphics.framework */,
+				BE2D01FB18D614B20079F1C4 /* UIKit.framework */,
+				BE2D021918D614B20079F1C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2D01FD18D614B20079F1C4 /* iDrupal */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D020618D614B20079F1C4 /* DPAppDelegate.h */,
+				BE2D020718D614B20079F1C4 /* DPAppDelegate.m */,
+				BE2D020918D614B20079F1C4 /* Main.storyboard */,
+				BE2D020C18D614B20079F1C4 /* DPMasterViewController.h */,
+				BE2D020D18D614B20079F1C4 /* DPMasterViewController.m */,
+				BE2D020F18D614B20079F1C4 /* DPDetailViewController.h */,
+				BE2D021018D614B20079F1C4 /* DPDetailViewController.m */,
+				BE2D021218D614B20079F1C4 /* Images.xcassets */,
+				BE2D01FE18D614B20079F1C4 /* Supporting Files */,
+			);
+			path = iDrupal;
+			sourceTree = "<group>";
+		};
+		BE2D01FE18D614B20079F1C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D01FF18D614B20079F1C4 /* iDrupal-Info.plist */,
+				BE2D020018D614B20079F1C4 /* InfoPlist.strings */,
+				BE2D020318D614B20079F1C4 /* main.m */,
+				BE2D020518D614B20079F1C4 /* iDrupal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2D021F18D614B20079F1C4 /* iDrupalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D022518D614B20079F1C4 /* iDrupalTests.m */,
+				BE2D022018D614B20079F1C4 /* Supporting Files */,
+			);
+			path = iDrupalTests;
+			sourceTree = "<group>";
+		};
+		BE2D022018D614B20079F1C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2D022118D614B20079F1C4 /* iDrupalTests-Info.plist */,
+				BE2D022218D614B20079F1C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2D01F318D614B20079F1C4 /* iDrupal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2D022918D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupal" */;
+			buildPhases = (
+				BE2D01F018D614B20079F1C4 /* Sources */,
+				BE2D01F118D614B20079F1C4 /* Frameworks */,
+				BE2D01F218D614B20079F1C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDrupal;
+			productName = iDrupal;
+			productReference = BE2D01F418D614B20079F1C4 /* iDrupal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2D021718D614B20079F1C4 /* iDrupalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2D022C18D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupalTests" */;
+			buildPhases = (
+				BE2D021418D614B20079F1C4 /* Sources */,
+				BE2D021518D614B20079F1C4 /* Frameworks */,
+				BE2D021618D614B20079F1C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2D021E18D614B20079F1C4 /* PBXTargetDependency */,
+			);
+			name = iDrupalTests;
+			productName = iDrupalTests;
+			productReference = BE2D021818D614B20079F1C4 /* iDrupalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2D01EC18D614B20079F1C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Drupal.org;
+				TargetAttributes = {
+					BE2D021718D614B20079F1C4 = {
+						TestTargetID = BE2D01F318D614B20079F1C4;
+					};
+				};
+			};
+			buildConfigurationList = BE2D01EF18D614B20079F1C4 /* Build configuration list for PBXProject "iDrupal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2D01EB18D614B20079F1C4;
+			productRefGroup = BE2D01F518D614B20079F1C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2D01F318D614B20079F1C4 /* iDrupal */,
+				BE2D021718D614B20079F1C4 /* iDrupalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2D01F218D614B20079F1C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D021318D614B20079F1C4 /* Images.xcassets in Resources */,
+				BE2D020218D614B20079F1C4 /* InfoPlist.strings in Resources */,
+				BE2D020B18D614B20079F1C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D021618D614B20079F1C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D022418D614B20079F1C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2D01F018D614B20079F1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D020E18D614B20079F1C4 /* DPMasterViewController.m in Sources */,
+				BE2D021118D614B20079F1C4 /* DPDetailViewController.m in Sources */,
+				BE2D020818D614B20079F1C4 /* DPAppDelegate.m in Sources */,
+				BE2D020418D614B20079F1C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2D021418D614B20079F1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2D022618D614B20079F1C4 /* iDrupalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2D021E18D614B20079F1C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2D01F318D614B20079F1C4 /* iDrupal */;
+			targetProxy = BE2D021D18D614B20079F1C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2D020018D614B20079F1C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2D020118D614B20079F1C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE2D020918D614B20079F1C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2D020A18D614B20079F1C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2D022218D614B20079F1C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2D022318D614B20079F1C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2D022718D614B20079F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE2D022818D614B20079F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE2D022A18D614B20079F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
+				INFOPLIST_FILE = "iDrupal/iDrupal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE2D022B18D614B20079F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
+				INFOPLIST_FILE = "iDrupal/iDrupal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE2D022D18D614B20079F1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDrupal.app/iDrupal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iDrupalTests/iDrupalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE2D022E18D614B20079F1C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDrupal.app/iDrupal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDrupal/iDrupal-Prefix.pch";
+				INFOPLIST_FILE = "iDrupalTests/iDrupalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2D01EF18D614B20079F1C4 /* Build configuration list for PBXProject "iDrupal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D022718D614B20079F1C4 /* Debug */,
+				BE2D022818D614B20079F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2D022918D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D022A18D614B20079F1C4 /* Debug */,
+				BE2D022B18D614B20079F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE2D022C18D614B20079F1C4 /* Build configuration list for PBXNativeTarget "iDrupalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2D022D18D614B20079F1C4 /* Debug */,
+				BE2D022E18D614B20079F1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2D01EC18D614B20079F1C4 /* Project object */;
+}
